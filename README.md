@@ -24,3 +24,17 @@ $ git commit -m "Copy git commands to my README file"
 $ git push origin dev
 ```
 
+### Exercise 2
+
+```bash
+echo > home.html
+$ git stash
+echo > about.html
+$ git stash
+echo > team.html
+$ git stash
+$ git stash list 
+git stash drop stash@{1}  
+git stash drop stash@{0}
+$ git commit -m "Create home and about pages"
+```
