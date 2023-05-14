@@ -18,3 +18,9 @@ $ git checkout dev
 $ git branch -d test 
 ```
 
+```bash
+$ git add .
+$ git commit -m "Copy git commands to my README file"
+$ git push origin dev
+```
+
