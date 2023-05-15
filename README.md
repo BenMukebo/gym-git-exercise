@@ -34,7 +34,12 @@ $ git stash
 echo > team.html
 $ git stash
 $ git stash list 
-git stash drop stash@{1}  
-git stash drop stash@{0}
+git stash pop stash@{1}  
+git stash pop stash@{0}
 $ git commit -m "Create home and about pages"
+
+$ git stash pop stash@{0} 
+$ git reset
+
+=> FAQ: I use `git reset` and `git restore` but I couln't go back to the changes without the team page, did you any command to suggesting me?
 ```
