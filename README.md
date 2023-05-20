@@ -43,3 +43,10 @@ $ git reset
 
 => FAQ: I use `git reset` and `git restore` but I couln't go back to the changes without the team page, did you any command to suggesting me?
 ```
+
+
+```bash
+$ git log ft/team-page
+# git cherry-pick <commit-hash>
+$ git cherry-pick 7df7a51d88a177c290d4e84d45114847ec02747a
+```
