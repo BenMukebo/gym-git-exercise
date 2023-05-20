@@ -43,3 +43,11 @@ $ git reset
 
 => FAQ: I use `git reset` and `git restore` but I couln't go back to the changes without the team page, did you any command to suggesting me?
 ```
+
+## Bundle 2
+
+- Compare two branches using git diff
+
+```bash
+$ git diff main..ft/service-redesign 
+```
