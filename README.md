@@ -56,3 +56,18 @@ $ git revert 7df7a51d88a177c290d4e84d45114847ec02747a
 ```
 
 ### Exercise 2
+
+```bash
+$ git checkout ft/home-page-redesign
+$ git rebase main
+```
+- Git will attempt to apply the changes from the ft/home-page-redesign branch on top of the latest changes in main. If any conflicts arise, you will need to resolve them manually.
+
+- After resolving any conflicts, continue the rebase by running the following command:
+
+```bash
+$ git rebase --continue
+```
+
+>If all goes well and there are no further conflicts, the rebase process will be completed, and the ft/home-page-redesign branch will be up to date with the latest changes from main.
+>Please note that during the rebase process, Git modifies the commit history of the ft/home-page-redesign branch, creating new commits for the changes on top of main.
