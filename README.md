@@ -48,6 +48,7 @@ $ git reset
 ### Exercise 1
 
 ```bash
+$ git log ft/team-page
 $ git cherry-pick <commit-hash>
 $ git cherry-pick 7df7a51d88a177c290d4e84d45114847ec02747a
 $ git revert <commit-hash>
